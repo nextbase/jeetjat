@@ -19,6 +19,22 @@ Session.vim
 .netrwhist
 *~
 
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# frontend stuff
+node_modules
+.tmp
+.sass-cache
+bower_components
+
+
 # cache files for sublime text
 *.tmlanguage.cache
 *.tmPreferences.cache
