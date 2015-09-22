@@ -7,4 +7,5 @@ A simple chat api and client written in [Python](http://www.python.org) with [Fl
 
 
 ### Version -0.10
-- Created the basic structure for the Flask app
++ Created the basic structure for the Flask apps
+- Basic folder structure for front-end styling
