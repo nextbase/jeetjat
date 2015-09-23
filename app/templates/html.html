@@ -1,0 +1,29 @@
+<!doctype html>
+<html class="no-js" lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{% block title %}{% endblock %}</title>
+        <meta name="deescription" content="A simple chat api and client written in Python and Flask">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/static/styles/build/main.css">
+
+        <!-- Modernizr.js -->
+        <script src="/static/js/modernizr.custom.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="main-outer-container">
+            <div class="full-width-block">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+
+        <!-- JavaScript Load -->
+        <script src="/static/js/zepto.min.js"></script>
+        <script src="/static/js/main.js"></script>
+    </body>
+</html>

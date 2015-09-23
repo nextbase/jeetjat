@@ -1,0 +1,18 @@
+@import "neat/neat-helpers";
+
+// Grid Settings
+$column: 60px;
+$gutter: 20px;
+$grid-columns: 12;
+$max-width: 960px;
+
+// Breakpoints
+$small-screen: 480px;
+$medium-screen: 640px;
+$large-screen: 960px;
+
+// Breakpoint Conditionals
+$desktop: new-breakpoint(min-width $large-screen);
+$tablets-down: new-breakpoint(max-width $large-screen);
+$mobile-down: new-breakpoint(max-width $medium-screen);
+$mobile-small: new-breakpoint(max-width $small-screen);

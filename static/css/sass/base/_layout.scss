@@ -1,0 +1,8 @@
+.main-outer-container {
+	@include outer-container();
+}
+
+.full-width-block {
+	// Initial Test Block
+	@include span-columns(12 of 12);
+}

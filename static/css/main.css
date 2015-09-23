@@ -317,3 +317,20 @@ img {
 table {
   border-spacing: 0;
   border-collapse: collapse; }
+
+.main-outer-container {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto; }
+  .main-outer-container::after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.full-width-block {
+  float: left;
+  display: block;
+  margin-right: 2.12766%;
+  width: 100%; }
+  .full-width-block:last-child {
+    margin-right: 0; }
